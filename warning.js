@@ -24,10 +24,10 @@
 
     var body = document.getElementsByTagName('body')[0];
     var container = document.createElement('div');
-    container.style.cssText = "display:block;min-height:70px;width:100%;border:1px solid #000;text-align:justify;margin:1.5em auto;padding:0.5em;background:#fff;";
+    container.style.cssText = "display:block;min-height:70px;width:100%; border:1px solid #000; border-width: 1px 0 1px 0; text-align:justify; auto;padding:0.5em;background:#fff;";
 
     var pDesc = document.createElement('p');
-    pDesc.style.cssText = "display: inline-block; width: 85%; padding-right: 10px;";
+    pDesc.style.cssText = "display: inline-block; width: 80%; padding: 15px; margin-right: 25px;";
     pDesc.innerText = "Strona korzysta z plików cookie w celu realizacji usług zgodnie z Polityką Cookies. Możesz samodzielnie określić warunki przechowywania lub dostępu mechanizmu cookie w Twojej przeglądarce.";
 
     var buttons = document.createElement('div');
