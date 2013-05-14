@@ -24,7 +24,7 @@
 
     var body = document.getElementsByTagName('body')[0];
     var container = document.createElement('div');
-    container.style.cssText = "display:block;min-height:70px;width:100%; border:1px solid #000; border-width: 1px 0 1px 0; text-align:justify; auto;padding:0.5em;background:#fff;";
+    container.style.cssText = "display:block;min-height:70px;width:100%; border:1px solid #000; border-width: 1px 0 1px 0; text-align:justify; auto;padding:0.5em;background:#fff; position: relative; z-index: 99999";
 
     var pDesc = document.createElement('p');
     pDesc.style.cssText = "display: inline-block; width: 80%; padding: 15px; margin-right: 25px;";
