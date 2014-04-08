@@ -28,14 +28,14 @@
 
     var pDesc = document.createElement('p');
     pDesc.style.cssText = "display: inline-block; width: 80%; padding: 15px; margin-right: 25px;";
-    pDesc.innerText = "Strona korzysta z plików cookie w celu realizacji usług zgodnie z Polityką Cookies. Możesz samodzielnie określić warunki przechowywania lub dostępu mechanizmu cookie w Twojej przeglądarce.";
+    pDesc.innerHTML = "Strona korzysta z plików cookie w celu realizacji usług zgodnie z Polityką Cookies. Możesz samodzielnie określić warunki przechowywania lub dostępu mechanizmu cookie w Twojej przeglądarce.";
 
     var buttons = document.createElement('div');
     buttons.style.cssText = "display: inline-block; width: 10%;";
 
     var buttonYes = document.createElement('p');
     buttonYes.style.cssText = "display:block;font-family:Verdana;text-align:center;color:#eee;cursor:pointer;padding:5px;background:#4cbb17; width: 50px;";
-    buttonYes.innerText = "OK";
+    buttonYes.innerHTML = "OK";
     buttonYes.onclick = function () {
         addWarningCookie('cookieWarning', true, 365);
         remove();
